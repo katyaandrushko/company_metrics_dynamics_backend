@@ -22,9 +22,8 @@ app.listen(config.port, () => {
 })
 const definition = {
    info: {
-      // API information (required)
-      title: 'Metrics dynamics', // Title (required)
-      version: '1.0.0', // Version (required)
+      title: 'Metrics dynamics',
+      version: '1.0.0',
    },
 }
 var options = {
